@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidProject</string>
+    <string name="title_activity_admin_panel">MainActivity</string>
+    <string name="title_meals">Meals</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_account">Account</string>
+    <string name="title_activity_order_check_in">Map</string>
+    <string name="facebook_app_id">201051847811214</string>
+    <string name="fb_login_protocol_scheme">fb201051847811214</string>
+</resources>

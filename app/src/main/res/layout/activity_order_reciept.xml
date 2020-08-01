@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderRecieptActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Receipt"
+        android:textAlignment="center"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/order_id"
+        android:textAlignment="center"
+        android:text="M2X55"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/subtotal"
+        android:text="Subtotal: $200"/>
+
+    <TextView
+        android:layout_marginTop="5sp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tax"
+        android:text="Tax(13%): $12"/>
+
+    <TextView
+        android:layout_marginTop="5sp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/discount"
+        android:text="Discount(50%): -$21"/>
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:text="Total: $212"/>
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pickup Order"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:onClick="pickupOrderAction"/>
+
+</LinearLayout>

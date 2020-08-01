@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubscriptionDetailsActivity"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp">
+
+    <ImageView
+        android:id="@+id/mealImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_baseline_image_24"/>
+
+    <TextView
+        android:id="@+id/al_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9E1818"
+        android:textSize="18sp"
+        android:text="Allergy Warning!"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Lorem ipsum Lorem ipsum is dummy text.Lorem ipsum Lorem ipsum is dummy text.Lorem ipsum Lorem ipsum is dummy text.Lorem ipsum Lorem ipsum is dummy text."
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No of meals (per Month): "/>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/meal_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subscription Plan: "/>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/sub_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 Months"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="price: "/>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$100.00"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Order"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:onClick="placeOrderAction"/>
+
+
+
+</LinearLayout>
